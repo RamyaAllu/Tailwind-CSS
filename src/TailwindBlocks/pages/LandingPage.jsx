@@ -14,16 +14,16 @@ import FooterSection from '../components/FooterSection'
 const LandingPage = ({change}) => {
   return (
     <div>
-        <NavBarSection change={change}/>
+         
         <HeroSection />
         <ContentSection />
         <GallerySection />
-        <HoverSection />
+        
         <FeatureSection />
         <PricingSection />
-        <TeamSection />
+        
         <TestimonialSection />
-        <ContactSection />
+         
         <FooterSection />
     </div>
   )
